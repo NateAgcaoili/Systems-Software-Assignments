@@ -25,6 +25,7 @@ Course::Course(){
     name=(char *)malloc(sizeof(char)*100);
     strcpy(name, "Default Course");
     id =(char *)malloc(sizeof(char)*100);
+    strcpy(name, "0");
 }
 
 Course::Course(const char* courseName,const char* courseID){
